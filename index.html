@@ -2,10 +2,9 @@
 
 <head>
 <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
-  
+<meta charset="UTF-8"> 
 <meta content="width=device-width, initial-scale=1" name="viewport" />
 <link rel="stylesheet" type="text/css" href="style.css">  
-<script src="script.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400" rel="stylesheet">
 </head>
 <body>
@@ -35,15 +34,22 @@
     <div class="project-tile">
       <header class="tile-header">CSS</header>
       <img class="tile-img" src="css-600-600.png">
-      <a href="#" class="coming-soon" onmouseover="triggerFunction()">Link</a>
+      <a onmouseover="triggerFunction()" onmouseleave="CSShere()" href="#" class="coming-soon">Link</a>
     </div>
     
     <div class="project-tile">
       <header class="tile-header">JS</header>
       <img class="tile-img" src="js-600-600.png">
-      <a href="#" class="coming-soon" onmouseover="triggerFunction()">Link</a>
+      <a onmouseover="triggerFunction1()" onmouseleave="JShere()" href="#" class="coming-soon" id="JScomingSoon" class="">Link</a>
+    </div>  
+
+    <div class="project-tile">
+      <header class="tile-header">MVC</header>
+      <img class="tile-img" src="php-600-600.png">
+      <a onmouseover="triggerFunction2()" onmouseleave="PHPhere()" href="#" class="coming-soon">Link</a>
     </div>   
   </section>
+
   
   <section id="social-section">
     <header id="social-header">Let us Connect!</header>
@@ -89,6 +95,7 @@
       <span class="footer-item"><a href="#">Contact</a></span>
      </div>  
   </footer>
+<script src="script.js"></script>
 </body>
 
 </html>

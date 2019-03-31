@@ -1,4 +1,4 @@
-// This piece of code is not mine - but it's completely NOT NEEDED to pass the tests, it just serves to hide the navbar when scrolling.
+// Hide menu when scrolling
 // 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -12,5 +12,20 @@ window.onscroll = function() {
 }
 
     function triggerFunction() {
-  document.getElementsByClassName('coming-soon')[0].innerText = "Coming Soon!"
+  document.getElementsByClassName('coming-soon')[0].innerText = "Coming Soon!";
+    }
+    function CSShere() {
+  document.getElementsByClassName('coming-soon')[0].innerText = "CSS";
+    }
+    function triggerFunction1() {
+  document.getElementsByClassName('coming-soon')[1].innerText = "Coming Soon!";
+    }
+    function JShere() {
+  document.getElementsByClassName('coming-soon')[1].innerText = "JS";
+    }
+    function triggerFunction2() {
+  document.getElementsByClassName('coming-soon')[2].innerText = "Coming Soon!";
+    }
+    function PHPhere() {
+  document.getElementsByClassName('coming-soon')[2].innerText = "PHP";
     }
