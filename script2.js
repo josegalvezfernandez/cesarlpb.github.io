@@ -29,12 +29,3 @@ window.onscroll = function() {
     function PHPhere() {
   document.getElementsByClassName('coming-soon')[2].innerText = "PHP";
     }
-    function abc() {
-  document.getElementsByClassName('coming-soon')[3].innerText = "PHP";    
-    }
-  //   function triggerFunction3() {
-  // document.getElementsByClassName('coming-soon')[3].innerText = "Coming Soon!";
-  //   }
-  //   function JSFiddlehere() {
-  // document.getElementsByClassName('coming-soon')[3].innerText = "JSFiddle";
-  //   }
