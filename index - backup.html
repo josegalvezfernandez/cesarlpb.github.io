@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<head>
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+<meta charset="UTF-8"> 
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link rel="stylesheet" type="text/css" href="style.css">  
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400" rel="stylesheet">
+</head>
+<body>
+  
+  <nav id="navbar">
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <section id="welcome-section">
+    <div id="centering"> 
+    <h1 id="my-h1">César Patiño</h1>
+    <h2 id="my-h2">a Web Designer</h2>
+    </div>
+  </section>
+<!--  1 My Web   -->
+  <section id="projects">
+    <div class="project-tile">
+      <header class="tile-header">Web</header>
+      <img class="tile-img" src="web-600-600.png">
+      <a href="http://www.cesarlpb.com/" target="_blank">Website</a>
+    </div>
+    
+    <div class="project-tile">
+      <header class="tile-header">CSS</header>
+      <img class="tile-img" src="css-600-600.png">
+      <a onmouseover="triggerFunction()" onmouseleave="CSShere()" href="#" class="coming-soon">Link</a>
+    </div>
+    
+    <div class="project-tile">
+      <header class="tile-header">JS</header>
+      <img class="tile-img" src="js-600-600.png">
+      <a onmouseover="triggerFunction1()" onmouseleave="JShere()" href="#" class="coming-soon" id="JScomingSoon" class="">Link</a>
+    </div>  
+
+    <div class="project-tile">
+      <header class="tile-header">MVC</header>
+      <img class="tile-img" src="php-600-600.png">
+      <a onmouseover="triggerFunction2()" onmouseleave="PHPhere()" href="#" class="coming-soon">Link</a>
+    </div>   
+  </section>
+
+  
+  <section id="social-section">
+    <header id="social-header">Let us Connect!</header>
+    
+    <div id="social-links">
+    <div class="social-button">
+      <div class="item">
+        <a href="http://www.cesarlpb.com/" target="_blank">Website</a>
+      </div>
+    </div>
+    
+    <div class="social-button">
+      <div class="item" id="fcc">
+        <a href="https://www.freecodecamp.org/fcc7e7eca12-91ce-464a-9207-faf3d7d32b8f" target="_blank">Free<br>Code<br>Camp</a>
+      </div>
+    </div>
+    
+    <div class="social-button">
+      <div class="item">
+        <a href="https://github.com/cesarlpb" target="_blank" id="profile-link" target="_blank">Github</a>
+      </div>
+    </div>
+  
+     <div class="social-button">
+      <div class="item">
+        <a href="https://codepen.io/collection/nRgJrG/" target="_blank">CodePen</a>
+      </div>
+    </div>
+  
+    <div class="social-button">
+      <div class="item coming-soon">
+        <a href="#" onmouseover="triggerFunction()">JsFiddle</a>
+      </div>
+    </div>
+    
+    </div>
+  </section>
+  <footer>
+    <div id="footer">
+      <span class="footer-item">&copy;2019</span>
+      <span class="footer-item"><a href="#">About</a></span>
+      <span class="footer-item"><a href="#">Portfolio</a></span>
+      <span class="footer-item"><a href="#">Contact</a></span>
+     </div>  
+  </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
