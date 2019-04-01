@@ -72,7 +72,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
   margin-bottom: 50px;
   display: flex;
   align-items: center;
@@ -113,11 +113,18 @@ body {
 }
 #navbar a {
   text-decoration: none;
-  color: #113450º;
+  /*color: #113450º; /* AQUI */
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
 }
-/*  */
+/* MEDIA QUERIES */
+/*DESKTOP*/
+/* ####################################*/
+@media screen and (max-width: 1024px) {
+	#my-h1 {padding-top: 200px;}
+}
+/* MOBILES */
+/* ####################################*/
 @media screen and (min-width: 720px) {
     #welcome-section {
 /*     padding: 100px 0px; */
