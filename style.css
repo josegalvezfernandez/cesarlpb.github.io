@@ -3,12 +3,13 @@ body {
   background-color: hsla(207, 68%, 53%,0.7);
 }
 .project-tile {
-  min-width: 180px;
+  /*min-width: 180px;*/
+  min-width: 220px;
   margin: 50px auto;
   display: block;
   text-align: center;
 /*   border: 1px solid; */
-  width: 25%;
+  width: 30%;
 }
 .tile-img {
   min-width: 90%;
@@ -39,9 +40,11 @@ body {
   text-align: center;
   font-size: 4rem;
   margin: auto;
-  padding: 250px 10px 0px;
+  padding: 15px 10px 0px;
+  text-shadow: 0px 0px 5px black;
   letter-spacing: 5px;
-  color: #054A83;
+  /*color: #054A83;*/
+  color: white;
   font-family: 'Montserrat', sans-serif;
 }
 #my-h2 {
@@ -49,10 +52,12 @@ body {
   font-size: 3rem;
   margin: 10px;
   padding: 10px;
-  color: #0663B0;
+  text-shadow: 0px 0px 5px black;
+  /*color: #0663B0;*/
   font-family: 'Montserrat', sans-serif;
-  font-weigth: none;
+  font-weight: none;
   font-style: italic;
+  color: white;
 }
 #projects {
   background-color: hsla(207, 68%, 53%, 0.85);
@@ -62,6 +67,12 @@ body {
 }
 #welcome-section {
 /*   padding: 200px 0px; */
+  background-image: url("bg-mac.jpg"); 
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
   margin-bottom: 50px;
   display: flex;
   align-items: center;
