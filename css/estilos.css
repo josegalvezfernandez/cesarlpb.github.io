@@ -2,16 +2,25 @@ body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
-  h1,
+  h1 {
+    /*font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+    font-family: 'Ma Shan Zheng', cursive;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    font-weight: 300;
+  }
+  
   h2,
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  .heading {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    margin-left: 0px;
+    letter-spacing: 0px;
+    font-weight: 500;
   }
-  
   header.principal {
     position: relative;
     background-color: #094463;
