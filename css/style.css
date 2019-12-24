@@ -13,6 +13,9 @@
 #CCFF7A
 #E0FFAD yellow-greenish
 */
+h1, h2, h3, h4, h5, h6 {
+	padding-left: 10px;
+}
 h1, h2{
 background-color: #FEFFED;
 padding: 30px 35px;
@@ -29,20 +32,49 @@ border: 0;
 border-top: 1px solid #ccc;
 margin-bottom: 40px;
 }
-div.container{
-width: 900px;
-height: 200px;
-margin:10px auto;
-font-family: 'Raleway', sans-serif;
-}
-div.main{
-width: 500px;
-padding: 10px 20px 10px;
+div.main-index{
+width: 850px;
+height: 900px;
+padding: 20px auto 20px;
 border: 2px solid gray;
 border-radius: 10px;
 font-family: raleway;
 float:left;
-margin-top:50px;
+margin: 25px;
+}
+div.container-main-index{
+width: 900px;
+height: 950px;
+margin:10px auto;
+border-radius: 10px;
+font-family: 'Raleway', sans-serif;
+border: 2px solid;
+}
+div.container-main{
+width: 900px;
+height: 350px;
+margin:10px auto;
+border-radius: 10px;
+font-family: 'Raleway', sans-serif;
+border: 1px solid;
+}
+div.container{
+width: 900px;
+height: 100px;
+margin:10px auto;
+border-radius: 10px;
+font-family: 'Raleway', sans-serif;
+border: 1px solid;
+}
+div.main{
+width: 850px;
+height: 300px;
+padding: 20px auto 20px;
+border: 2px solid gray;
+border-radius: 10px;
+font-family: raleway;
+float:left;
+margin: 25px;
 }
 input[type=text]{
 width: 100%;
@@ -82,8 +114,28 @@ margin-left: 10px;
 p{
 	margin-left: 10px;
 }
+ul{
+	padding: 15px 30px;
+	margin: 10px 0px;
+}
+ul li{
+	padding: 5px;
+	margin: 1px;
+}
+li a {
+	border: 1px solid #FE7ABB;
+	background: #FFADD5; 
+	padding: 2px 10px;
+	margin: 0px 5px;
+	border-radius: 10px;
+	color: black;
+}
+li a:hover {
+	color: black;
+	background: #DA7FFE;
+}
 footer{
-	background: #CCFF7A;
+	background: #E0FFAD;
 	margin-left: 0px;
 	margin-right: 0px;
 	padding: 0px 0px;

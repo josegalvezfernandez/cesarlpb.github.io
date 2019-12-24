@@ -7,24 +7,34 @@
     integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css"/>
-	<script src="js/script.js"></script>
+	<link rel="stylesheet" href="../css/style.css"/>
+	<script src="../js/script.js"></script>
 </head>
 <body>
 	<h1>Sample WorkSheet</h1>
-	<div>
-		<a href="index.html" class="btn btn-secondary">
-        <i class="fas fa-arrow-left"> &nbsp; Back to Website</i>
+    <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+		<a href="main_index.html" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"> &nbsp; Previous WorkSheet</i>
     	</a>
-	</div>
+        <a href="main_index.html" class="btn btn-secondary">
+            <i class="fas fa-book"> &nbsp; WorkSheet Index</i>
+        </a>
+        <a href="WorkSheets/tobe.html" class="btn btn-primary">
+            <i class="fas fa-sign-in-alt"> &nbsp; Next WorkSheet</i>
+        </a>
+    </div>
+    </nav>
+	
 	<p>This is a series of exercises to practice what we learn in the classes.</p>
 	<h2>Verb To Be</h2>
 	<p>Fill the blanks with the correct form of the verb <strong>to be</strong>.</p>
 	
-	<div class="container">
+	<div class="container-main">
 	<div class="main">
 	<form action="#" method="post" name="form_name" id="form_id" class="form_class" >
 	<ul>
+		<!-- #1 -->
 		<li>I &nbsp;
 			<select id="q1">
 				<option value="'re">'re</option>
@@ -32,6 +42,7 @@
 				<option value="are">are</option>
 			</select>
 			&nbsp; learning English.</li>
+		<!-- #2 -->
 		<li>You &nbsp;
 			<select id="q2">
 				<option value="'re">'re</option>
@@ -39,8 +50,24 @@
 				<option value="'s">'s'</option>
 			</select>
 			&nbsp; reading a website.</li>
+		<!-- #3 -->
 		<li>They &nbsp;
 			<select id="q3">
+				<option value="'s">'s</option>
+				<option value="am">am</option>
+				<option value="are">are</option>
+			</select>
+			&nbsp; working at a cafeteria.</li>
+		<!-- #4 -->
+		<li>They &nbsp;
+			<select id="q4">
+				<option value="'s">'s</option>
+				<option value="am">am</option>
+				<option value="are">are</option>
+			</select>
+			&nbsp; working at a cafeteria.</li>
+		<li>They &nbsp;
+			<select id="q5">
 				<option value="'s">'s</option>
 				<option value="am">am</option>
 				<option value="are">are</option>
@@ -53,13 +80,16 @@
 	</div>
 	</div>
 
-	<p>Check button here</p>
-	<p>Click on <em>Check</em> to see how you are doing.</p>
+	<div>
+	<h3>How Does It Work?</h3>
+	<p>Click on <em>Submit</em> to see your score.</p>
+	<p>Click on <em>Show Answers</em> to see the correct answers.</p>
+	</div>
 </body>
 <footer>
 	<hr>
 	<p><strong>Created by:</strong> C&eacute;sar Pati&ntilde;o</p>
-	<p><strong>Contact:</strong> <a href="mailto:cesarlpb@gmail.com">e-mail</a> </p>
+	<p><strong>Contact:</strong> <em>cesarlpb [@] gmail [dot] com</em> </p>
 	<p><strong>&copy; 2019 - 2020</strong></p>
 </footer>
 </html>
