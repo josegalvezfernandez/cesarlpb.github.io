@@ -37,22 +37,37 @@
       </ul>
     </nav>
     -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand bg-dark text-white" href="#">Panel de Administración</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand rounded-left bg-primary text-white pr-3 pl-2 mr-0" href="#">Panel de Administración</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+          <!--
           <li class="nav-item active">
             <a class="nav-link bg-light" href="#">Inicio <span class="sr-only">(current)</span></a>
           </li>
+          -->
           <!--
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
           </li>
             -->
+          <li class="nav-item active">
+            <a class="nav-link bg-primary rounded mr-2 ml-2" href="clientes.html">Cientes</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link bg-primary rounded mr-2 ml-2" href="ordenes.html">Órdenes</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link bg-primary rounded mr-2 ml-2" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link bg-primary rounded mr-2 ml-2" href="reportes.html">Reportes</a>
+          </li>
+          <!--
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Opciones
@@ -67,6 +82,7 @@
               <a class="dropdown-item" href="#">#</a>
             </div>
           </li>
+          -->
           <!--
           <li class="nav-item">
             <a class="nav-link disabled" href="#">#</a>
@@ -74,8 +90,8 @@
             -->
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2 rounded" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-dark my-2 my-sm-0 rounded" type="submit">Buscar</button>
         </form>
       </div>
     </nav>
@@ -129,10 +145,10 @@
                     <h2>Panel de Administración</h2>        
                     <div class="btn-toolbar mb-2 mb-md-0">
                         <div class="btn-group">
-                            <button class="btn btn-sm btn-outline-secondary">
+                            <button class="btn btn-sm btn-outline-secondary rounded mr-2">
                                 <i class="fas fa-upload"></i> Importar Datos
                             </button>
-                            <button class="btn btn-sm btn-outline-secondary">
+                            <button class="btn btn-sm btn-outline-secondary rounded ml-2">
                                 <i class="fas fa-file-excel"></i> Exportar a Excel
                             </button>
                         </div>
@@ -140,7 +156,51 @@
                 </div>
                 <!--/Encabezado del contenido principal-->
                 <!--Contenido principal-->
+                <!-- Body -->
+                <div class="border border-0 border-light mt-5 mb-5 pt-2 pb-2 h-auto w-100 rounded">
+                  
+                  <div class="mt-3 mb-3 border border-2 border-info rounded hoverable">
+                    <h5>Proceso 1</h5>
+                    <p>Descripción del proceso. Información del proceso. <a href="#">Más info</a></p>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  
+                  <div class="mt-3 mb-3 border border-2 border-info rounded hoverable">
+                    <h5>Proceso 2</h5>
+                    <p>Descripción del proceso. Información del proceso. <a href="#">Más info</a></p>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
 
+                  <div class="mt-3 mb-3 border border-2 border-info rounded hoverable">
+                    <h5>Proceso 3</h5>
+                    <p>Descripción del proceso. Información del proceso. <a href="#">Más info</a></p>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  
+                  <div class="mt-3 mb-3 border border-2 border-warning rounded hoverable">
+                    <h5>Proceso 4</h5>
+                    <p>Descripción del proceso. Información del proceso. <a href="#">Más info</a></p>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+
+                  <div class="mt-3 mb-3 border border-2 border-success rounded hoverable">
+                    <h5>Proceso 5</h5>
+                    <p>Descripción del proceso. Información del proceso. <a href="#">Más info</a></p>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- /Body -->
                 <!-- Footer -->
                 <footer class="page-footer font-small blue pt-4">
 
@@ -226,7 +286,7 @@
                   <!-- Copyright -->
 
                 </footer>
-    <!-- Footer -->
+            <!-- Footer -->
                 <!--/Contenido principal-->
             </main>
             <!--/Contenido-->
