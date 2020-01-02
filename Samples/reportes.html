@@ -17,79 +17,56 @@
 </head>
 
 <body>
+
     <!-- Encabezado -->
-    <nav class="navbar navbar-dark fixed-top bg-primary flex-md-nowrap p-0 shadow">
-        <a href="#" class="navbar-brand col-sm-3 col-md-2 mr-0 border-0 shadow-none">
-            Bootstrap 4
-        </a>
-        <div class="input-group w-100">
-            <div class="input-group-prepend">
-                <span class="input-group-text bg-primary border-0 text-white">
-                    <i class="fas fa-search"></i>
-                </span>
-            </div>
-            <input type="text" class="form-control form-control-dark" placeholder="Búsqueda" aria-label="Búsqueda" />
-        </div>
-        <ul class="navbar-nav px-3">
-            <li class="nav-item text-nowrap">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-sign-out-alt"></i> Salir
-                </a>
-            </li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand rounded-left bg-primary text-white pr-3 pl-2 mr-0" href="#">Panel de Administración</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link bg-primary rounded mr-2 ml-2" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link bg-primary rounded mr-2 ml-2" href="clientes.html">Cientes</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link bg-primary rounded mr-2 ml-2" href="ordenes.html">Órdenes</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link bg-primary rounded mr-2 ml-2" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link bg-primary text-light rounded mr-2 ml-2" href="reportes.html">Reportes</a>
+          </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 rounded" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-dark my-2 my-sm-0 rounded" type="submit">Buscar</button>
+        </form>
+      </div>
     </nav>
     <!-- /Encabezado -->
-
 
     <div class="container-fluid">
 
         <div class="row">
-            <!--Barra Lateral-->
-            <div class="col-md-2 d-none d-md-block bg-light sidebar">
-                <div class="sidebar-sticky">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link active">
-                                <i class="fas fa-home"></i> Dashboard
-                                <span class="sr-only">(actual)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="ordenes.html" class="nav-link">
-                                <i class="fas fa-tasks"></i> Órdenes
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="productos.html" class="nav-link">
-                                <i class="fas fa-shopping-cart"></i> Productos
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="clientes.html" class="nav-link">
-                                <i class="fas fa-users"></i> Clientes
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="reportes.html" class="nav-link">
-                                <i class="fas fa-chart-bar"></i> Reportes
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!--/Barra Lateral-->
+
             <!--Contenido-->
-            <main role="main" class="col-md-10 ml-sm-auto px-4">
+            <main role="main" class="col-md-12 ml-sm-auto px-4">
                 <!--Encabezado del contenido principal-->
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap
                             align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h2>Reportes</h2>
                     <div class="btn-toolbar mb-2 mb-md-0">
                         <div class="btn-group">
-                            <button class="btn btn-sm btn-outline-secondary">
+                            <button class="btn btn-sm btn-outline-secondary rounded mr-2">
                                 <i class="fas fa-upload"></i> Importar Datos
                             </button>
-                            <button class="btn btn-sm btn-outline-secondary">
+                            <button class="btn btn-sm btn-outline-secondary rounded ml-2">
                                 <i class="fas fa-file-excel"></i> Exportar a Excel
                             </button>
                         </div>
