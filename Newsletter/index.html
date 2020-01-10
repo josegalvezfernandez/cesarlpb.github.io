@@ -3,14 +3,28 @@
 	  
 	<style>
 	<!--
-	a {
-		cursor: pointer;
-	}
+	a { cursor: pointer; }
+	h1, h2, h3, h4, h5, h6 { text-align: center; }
+	h1 { font-size: 3rem; }
+	h2 { font-size: 2.2rem; }
+	h3 { font-size: 1.8rem; }
+	h4 { font-size: 1.5rem; }
 	body {
+	text-align: center;
 	width: 80%;
+	padding: 5px;
 	margin: 15vh auto; 
     background-color: #060030;
     color: #188dd9;
+    border: 2px solid #188dd9;
+    border-radius: 50px;
+    }
+    .wrapper {
+    	width: 95%;
+    	margin: 5px auto;
+    	<!--
+    	border: 2px solid green;
+    	-->
     }
     p {
     color: white;
@@ -20,6 +34,28 @@
     margin-left: auto;
   	margin-right: auto;
   	width: 50%;
+    }
+    ul {
+    	text-align: center;
+    	list-style-position: inside;
+    	list-style-type: "-  ";
+    	margin: 5px auto;
+    	
+    	padding-left: 0px;
+
+    	color: black;
+    	border: 1px solid white;
+    	width: 50%;
+    	border-radius: 25px;
+    	background-color: gray;
+    }
+    ul li {
+    	text-align: center;
+    	margin-top: 2px;
+    	margin-bottom: 2px;
+    	padding-top: 3px;
+    	padding-bottom: 3px;
+    	font-style: italic;
     }
     .centering {
     	width: 27vw;
@@ -31,6 +67,7 @@
     .thumbnail-img {
     	width: 5vw;
     	border-radius: 50px;
+    	background-color: transparent;
     }
     #img-center {
     	margin: 0px 3vw;
@@ -46,43 +83,59 @@
     	margin-right: 1vw;
     }
     footer {
-    	margin-top: 10vh;
+    	margin-top: 5vh;
     	margin-bottom: 0px;
     }
     footer p {
-    	margin: 10vh auto;
+    	margin: 3vh auto;
     	width: 27vw;
     	text-align: center;
+    }
+    footer img {
+    	padding: 2px 0px;
+    	margin-bottom: 1px;
+    	margin-top: 1px;
     }
     -->
 	</style>
 </head>
 <body>
 	<!--spellcheck="false" contenteditable="true"-->
-	<h1>Woonkly 2.0 Available on Month, Day 2020</h1>   
-	<img class="center-img" src="https://drive.google.com/thumbnail?id=1oiznDUE0uP6NFZ0koOK3QlM0dKaL67SB" style="width:20vw;"> 
-	<h2>Title h2</h2>
-	<p>We are glad to announce the launch of version 2.0 of Woonkly.&nbsp;</p>    
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
-    
-	<h3>Title h3</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  
-	<h2>Title h2</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
+	<div class="wrapper">
+		<h1>Woonkly 2.0 Available on Month, Day 2020</h1>   
+		<img class="center-img" src="https://drive.google.com/thumbnail?id=1oiznDUE0uP6NFZ0koOK3QlM0dKaL67SB" style="width:20vw;"> 
+		<h2>Title h2</h2>
+		<p>We are glad to announce the launch of version 2.0 of Woonkly.</p>
+		<ul>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+		</ul>    
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+	    
+		<h3>Title h3</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-	<h3>Title h3</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-	<footer>
-		<div class="centering">
-			<a  id="img-left" href="https://www.google.com">
-				<img class="thumbnail-img" src="https://image.flaticon.com/icons/png/512/44/44646.png">
-			</a>
-			<a id="img-center" href="#"><img class="thumbnail-img" src="https://drive.google.com/thumbnail?id=1XSZRG-_sfl4abF3urJH0xvYfanzDBO8v"></a>
-			<a id="img-right" href="#"><img class="thumbnail-img" src="https://drive.google.com/thumbnail?id=1XSZRG-_sfl4abF3urJH0xvYfanzDBO8v"></a>
-		</div>
-		<p>Woonkly Ltd. &copy; 2020</p>
-	</footer>
+		<h4>Follow Us on Social Networks:</h4>
+		
+		<footer>
+			<div class="centering">
+				<a  id="img-left" href="https://www.facebook.com/woonkly/" target="_blank">
+					<img class="thumbnail-img" src="https://drive.google.com/thumbnail?id=1XSZRG-_sfl4abF3urJH0xvYfanzDBO8v">
+				</a>
+				<a id="img-center" href="https://twitter.com/woonklytv?lang=en" target="_blank">
+					<img class="thumbnail-img" src="https://drive.google.com/thumbnail?id=1YuiHSSgQba20W7DmYGkJjGkqkwQAsHk9">
+				</a>
+				<a id="img-right" href="https://www.instagram.com/woonkly/" target="_blank">
+					<img class="thumbnail-img" src="https://drive.google.com/thumbnail?id=1dX3pecssQUydb-3G3kW8GN49_Lo7nfCP">
+				</a>
+			</div>
+			<p>Woonkly Ltd. &copy; 2020</p>
+			<p>
+				<a href="#">Terms of Use</a>
+				<a href="#">Unsubscribe</a>
+			</p>
+		</footer>
+	</div>
 </body>
 </html>
