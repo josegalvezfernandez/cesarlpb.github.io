@@ -4,27 +4,81 @@
 	<style>
 	<!--
 	body {
-      background-color: #060030;
-      color: #188dd9;
+	width: 80%;
+	margin: 15vh auto; 
+    background-color: #060030;
+    color: #188dd9;
     }
     p {
-      color: white;
+    color: white;
     }
-	-->
+    .center-img {
+    display: block;
+    margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+    }
+    .centering {
+    	width: 27vw;
+    	margin: 0px auto;
+    	border: 1px solid white;
+    	border-radius: 50px;
+    	background-color: #188dd9;
+    }
+    .thumbnail-img {
+    	width: 5vw;
+    	border-radius: 50px;
+    }
+    #img-center {
+    	margin: 0px 3vw;
+    }
+    #img-left {
+    	margin: 0px;
+    	margin-right: 1.5vw;
+    	margin-left: 1vw;
+    }
+    #img-right {
+    	margin: 0px;
+    	margin-left: 1.5vw;
+    	margin-right: 1vw;
+    }
+    footer {
+    	margin-top: 10vh;
+    	margin-bottom: 0px;
+    }
+    footer p {
+    	margin: 10vh auto;
+    	width: 27vw;
+    	text-align: center;
+    }
+    -->
 	</style>
 </head>
 <body spellcheck="false" contenteditable="true">
-	<h1>Woonkly 2.0 Available on Month, Day 2020</h1>    
+	<h1>Woonkly 2.0 Available on Month, Day 2020</h1>   
+	<img class="center-img" src="https://drive.google.com/thumbnail?id=1oiznDUE0uP6NFZ0koOK3QlM0dKaL67SB" style="width:20vw;"> 
 	<h2>Title h2</h2>
 	<p>We are glad to announce the launch of version 2.0 of Woonkly.&nbsp;</p>    
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
     
-	<h3>Title h2</h3>
+	<h3>Title h3</h3>
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   
 	<h2>Title h2</h2>
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
-	<p><br />
-		</p>
+
+	<h3>Title h3</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+	<footer>
+		<div class="centering">
+			<a id="img-left" href="https://www.google.com">
+				<img class="thumbnail-img" src="https://drive.google.com/thumbnail?id=1XSZRG-_sfl4abF3urJH0xvYfanzDBO8v">
+			</a>
+			<a id="img-center" href="#"><img class="thumbnail-img" src="https://drive.google.com/thumbnail?id=1XSZRG-_sfl4abF3urJH0xvYfanzDBO8v"></a>
+			<a id="img-right" href="#"><img class="thumbnail-img" src="https://drive.google.com/thumbnail?id=1XSZRG-_sfl4abF3urJH0xvYfanzDBO8v"></a>
+		</div>
+		<p>Woonkly Ltd. &copy; 2020</p>
+	</footer>
 </body>
 </html>
