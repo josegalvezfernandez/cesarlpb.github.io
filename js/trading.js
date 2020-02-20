@@ -1,4 +1,4 @@
-AmCharts.loadFile( "http://cesarlpb.github.io/files/sample.csv", {}, function( response ) {
+AmCharts.loadFile( "https://cesarlpb.github.io/files/sample.csv", {}, function( response ) {
 
   /**
    * Parse CSV
