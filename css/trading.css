@@ -1,0 +1,27 @@
+/* amCharts */
+/* index.html */
+#datatable table {
+    font-family: Arial;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+#datatable table td, #datatable table th {
+  padding: 5px 9px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+
+#datatable table tr:nth-child(even) td {
+  background: #eee;
+}
+/* graphs.html */
+#chartdiv {
+  width: 100%;
+  height: 500px;
+  font-size: 11px;
+  font-family: Verdana;
+}
+footer {
+  padding-top: 300px;
+}

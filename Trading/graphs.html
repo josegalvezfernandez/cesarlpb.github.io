@@ -11,36 +11,22 @@
 	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 	<script src="https://www.amcharts.com/lib/3/plugins/dataloader/dataloader.min.js">
 	</script>
+	<!--
+	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+	-->
+	<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+	<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+	<script src="https://www.amcharts.com/lib/3/amstock.js"></script>
+	<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
 	<script src="../js/trading.js"></script>
 </head>
 <body>
-	<h1>Bitcoin Prices</h1>
-    <nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-		<a href="#" class="btn btn-secondary disabled">
-        <i class="fas fa-arrow-left"> &nbsp; Previous</i>
-    	</a>
-		<a href="../index.html" class="btn btn-secondary">
-        <i class="fas fa-arrow-left"> &nbsp; Back to My Site</i>
-    	</a>    	
-    	<!--
-        <a href="index.html" class="btn btn-secondary">
-            <i class="fas fa-book"> &nbsp; WorkSheet Index</i>
-        </a>
-    	-->
-        <a href="graphs.html" class="btn btn-primary">
-            <i class="fas fa-arrow-right"> &nbsp; Next</i>
-        </a>
-    </div>
-    </nav>
-	
-	<p>Bitcoin price from various sources in 2020.</p>
-	
-	<div class="container-main-index">
-	<div class="main-index">
-		<div id="datatable"></div> 
-	</div>
-	</div>
+	<h1>Graphs</h1>
+	<div id="chartdiv"></div>
+	<!--
+		# Source:
+	https://codepen.io/team/amcharts/pen/677dab0021992e3b7d32381881761c49 
+	-->
 </body>
 <footer>
 	<hr>
