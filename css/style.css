@@ -34,7 +34,8 @@ margin-bottom: 40px;
 }
 div.main-index{
 width: 850px;
-height: 900px;
+height: 400px;
+overflow: auto;
 padding: 20px auto 20px;
 border: 2px solid gray;
 border-radius: 10px;
@@ -44,20 +45,23 @@ margin: 25px;
 }
 div.container-main-index{
 width: 900px;
-height: 950px;
+height: 450px;
 margin:10px auto;
 border-radius: 10px;
 font-family: 'Raleway', sans-serif;
 border: 2px solid;
 }
+/* Exercises Sheets */
 div.container-main{
 width: 900px;
 height: 350px;
 margin:10px auto;
+border: 1px solid black;
 border-radius: 10px;
 font-family: 'Raleway', sans-serif;
 border: 1px solid;
 }
+
 div.container{
 width: 900px;
 height: 100px;
