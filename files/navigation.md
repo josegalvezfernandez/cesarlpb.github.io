@@ -1,15 +1,25 @@
 # Navigation
- Datagrok helps you unlock the full value of your organization's data by empowering any non-technical user to **discover, cleanse, visualize, explore, model data, and share the results** seamlessly. To get started, go to [Datagrok](https://datagrok.ai/) and click on the [![button](https://cesarlpb.github.io/images/button25.JPG "Launch")](https://public.datagrok.ai/?) button.
- 
- > **_Note: Test resized to 33% button_**
+ Datagrok helps you unlock the full value of your organization's data by empowering any non-technical user to **discover, cleanse, visualize, explore, model data, and share the results** seamlessly. To get started, go to [Datagrok](https://datagrok.ai/) and click on the [![button](https://cesarlpb.github.io/images/button33.JPG "Launch")](https://public.datagrok.ai/?) button.
 ## Welcome
-Once you log in on Datagrok, you will see the following screen:
-![alt text](https://cesarlpb.github.io/images/welcome.JPG "Datagrok Welcome Page")
-Add links + info here.
+> Note: this section should be on https://datagrok.ai/help/views/welcome-view
+
+Once you log in on Datagrok, you will see the welcome screen. At the **top**, you will find a toolbar with menus to import data (there are over 30 connectors to the main databases, go to _**File > Connect to Data**_). 
+![alt text](https://cesarlpb.github.io/GIFs/welcome.gif "Datagrok Welcome Page Menus")
+At the **left**, there is a toolbox with info to get started with some useful links, such as: Wiki, Connect to Data, and even Tutorials.
+![alt text](https://cesarlpb.github.io/images/welcome_start.JPG "Datagrok Welcome Page")
+* [Tutorials](https://datagrok.ai/help/tutorials/tutorials) · [Scripting Tutorials](https://datagrok.ai/help/tutorials/scripting) · [Function Parameters](https://datagrok.ai/help/tutorials/func-params-enhancement) · [Use Case: Navigation](https://datagrok.ai/help/tutorials/platform-navigation)
+
+At the **right**, you will find the property panel and the contextual help panel, which add useful information based on the selected items and features.
+![alt text](https://cesarlpb.github.io/images/welcome_property_panel.JPG "Property Panel and Contextual Help Panel")
+> Note: add background to image so that it looks centered.
 ## Datasets
-When you select a dataset, you will see the following screen:
+> Note: so far, there is only (linkable) information on public datasets: https://datagrok.ai/help/features/public-datasets
+Need to expand https://datagrok.ai/help/features/toolbox
+Also, need info for Contextual Help
+
+When you select a **Dataset**, you will see the a similar screen to the following. From left to right, relevant Features appear on the [Toolbox](https://datagrok.ai/help/features/toolbox), the data is represented in the [Main View](https://datagrok.ai/help/entities/view-layout), and additional info on the data shows up on the [Property panel](https://datagrok.ai/help/features/property-panel) and Contextual Help panels.
 ![alt text](https://cesarlpb.github.io/images/dataset.JPG "Datagrok Welcome Page")
-Add links + info here.
+* [Viewers](https://datagrok.ai/help/viewers/viewers)
 ### Workspace, Panels and Views
 Our platform is fully browser-oriented and suitable for desktop devices. You can import your data into the workspace. Depending on the data, you will see features available to use. Features are organized in panels to be accesible, from left to right: toolbox, workspace, and property panel.
 ![alt text](https://cesarlpb.github.io/images/sections.jpg "Sections")
