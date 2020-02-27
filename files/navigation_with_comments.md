@@ -26,7 +26,7 @@ When you select a **Dataset**, you will see the a similar screen to the followin
 ### Workspace, Panels and Views
 
 The Datagrok platform is fully browser-oriented and suitable for desktop devices. You can import your data into the workspace. Depending on the data, you will see suitable features available to use in your workspace. The fatures are organized in panels to be accesible, namely from left to right the main elements are: **toolbox, main view,** and **property panel**.
-![alt text](https://cesarlpb.github.io/images/sections.jpg "Sections")
+![alt text](https://cesarlpb.github.io/images/sections2.png "Sections")
 > **_Note: Consider another layout for labels in the picture._**
 ##### Customizing Panels
 Panels can be relocated for major convenience by using the _drag and drop_ principle. Also, all panels can be turned ON or OFF: 
@@ -51,7 +51,7 @@ However, the quick access ribbons change depending on the available options. For
 
 ### Toolbox
 The toolbox, located on the left, contains controls that are specific to the current active view.
-![alt text](https://cesarlpb.github.io/images/toolbox.JPG "Toolbox")
+![alt text](https://cesarlpb.github.io/images/toolbox.png "Toolbox")
 For more information check [Toolbox](https://datagrok.ai/help/features/toolbox). Below, you can find a review of the toolbox features.
 #### Search
 When data is imported, you can quickly filter and select rows using this feature of the toolbox. 
