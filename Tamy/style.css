@@ -1,8 +1,10 @@
 h1 {
   color:#FF0080;
   text-align:center;
+  font-size: 2rem;
 }
 #par {
+  font-size: 2rem;
   text-align: right;
   color: #FFB6C1;
 }
