@@ -2,13 +2,14 @@
 <html>
 <head>
 	<title>Python</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 <!-- Header -->
 <div>
-	<ul>
+	<ul id="top">
 	<li><a href="/">Home</a></li>
-	<li><a href="https://www.google.com" target="_blank">Book "Think Python"</a></li>
+	<li><a href="https://drive.google.com/file/d/15vkE0cp20VQNOEKnaKL-SIwx1ccNvdSr/view?usp=sharing" target="_blank">Book "Think Python"</a></li>
 	</ul>
 </div>
 <hr>
@@ -34,33 +35,46 @@ Hello, world!
 	</code>
 </pre>
 
-<h2>Variables y Datos</h2>
+<h3>Scrap</h3>
+<p>Cómo conectar y escribir texto de una URL:</p>
+	<pre>
+		<code>
+		#python
+		#Script básico para conectar a una web con python
+		import requests
+		url = 'https://www.idealista.com/alquiler-habitacion/madrid/centro/mapa'
+		response = requests.get(url)
+		response
+		# error 403 = Forbidden / Prohibido
+		url = 'http://web.mta.info/developers/turnstyle.html'
+		response = requests.get(url)
+		response
+		# response 200 = Success / Conexión con éxito
+		#Google
+		url = 'https://www.google.es'
+		response = requests.get(url)
+		response
+		#etc.
+
+		#Cuando hay conexión:
+		print(response.text) #sale todo el HTML que hayas encontrado en la URL
+		</code>
+	</pre>
+	<div style="text-align: center">
+	<iframe src="https://drive.google.com/file/d/1Vldh_2HVB_Tj7QkJL0-lFIUbbwzuIKzC/preview" width="640" height="480">
+		
+	</iframe>
+	</div>
+
+<h2>Siguiente Clase</h2>
 <p>Descripción</p>
 	<pre>
 		<code>
-			code here
+			código aquí
 		</code>
 	</pre>
-<h2>Listas</h2>
-<p>Descripción</p>
-	<pre>
-		<code>
-			code here
-		</code>
-	</pre>
-<h2>Operadores</h2>
-<p>Descripción</p>
-	<pre>
-		<code>
-			code here
-		</code>
-	</pre>
-<h2>Tema</h2>
-<p>Descripción</p>
-	<pre>
-		<code>
-			code here
-		</code>
-	</pre>
+<div>
+	<a href="#top">Volver arriba</a>
+</div>
 </body>
 </html>
