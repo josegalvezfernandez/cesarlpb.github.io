@@ -16,7 +16,7 @@
 <!-- / Header -->
 
 <h1>Clases de Python</h1>
-<h2>Introducción</h2>
+<h2>1. Introducción 11-05</h2>
 	<p>Python es un lenguaje de programación 100% orientado a objetos. 
 	Es decir, todo es un objeto en Python con estructura, métodos e información.</p>
 
@@ -35,7 +35,7 @@ Hello, world!
 	</code>
 </pre>
 
-<h3>Scrap</h3>
+<h3>Scrap Web</h3>
 <p>Cómo conectar y escribir texto de una URL:</p>
 	<pre>
 		<code>
@@ -66,11 +66,55 @@ Hello, world!
 	</iframe>
 	</div>
 
-<h2>Siguiente Clase</h2>
+<h2>2. Scrap y API 13-05</h2>
 <p>Descripción</p>
 	<pre>
 		<code>
-			código aquí
+		# Clase 11-05-2020
+		# Script para extraer información de una URL
+		# URL = http://web.mta.info/developers/turnstile.html (permite conectar cada cierto tiempo)
+
+		#pip install bs4 # antes este módulo se llamaba BeautifulSoup
+		#pip install urllib	# solo en caso de no tenerlo ya
+
+		from bs4 import BeautifulSoup as BS # importamos un paquete del módulo
+		import urllib	# antes se llamaba urlib2
+		from urllib.request import urlopen # pedimos la función urlopen a la librería
+
+
+		url = 'http://web.mta.info/developers/turnstile.html' # url en variable como string
+		html = urlopen(url)
+		# print(html)
+		soup = BS(html)	#aplicamos beautifulsoup al hrml que hemos obtenido
+		# print(soup)
+
+		elem = soup.find_all('a')	#hallamos todos los a tags
+		# &lt;a href="link" attrs>Texto visible&lt;/a>
+		# <a href="link" attrs>Texto visible</a>
+
+		for i in range(5):	#bucle para ver los primeros 5 elementos
+			print(elem[i])
+
+
+		# Deberes para Semana 18-20/05
+		# 1. Elegir otra URL (opcional) y mostrar:
+		# 	a) 5 últimos elementos
+		# 	b) 5 cualesquiera elementos (aleatorio)
+		# 	c) todos los elementos ordenados (ej: 1 por línea si es conveniente)
+		# 2. Hacer lo anterior de estas formas:
+		# 	a. variables
+		# 	b. creando una función e invocándola
+		# 	c. usando métodos disponibles en Python (cualesquiera convenientes)
+		</code>
+	</pre>
+<h3>API</h3>
+<p>Text</p>
+
+<h2>Siguiente Clase: 18-05</h2>
+<p>Descripción</p>
+	<pre>
+		<code>
+			Código aquí
 		</code>
 	</pre>
 <div>
