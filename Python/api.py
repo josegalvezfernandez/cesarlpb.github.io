@@ -13,12 +13,4 @@ def get_oauth_token():
 	body = {'grant_type':'client_credentials'}
 	headers = {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8','Authorization' : 'Basic ' + auth}
 	resp, content = http_obj.request(url,method='POST',headers=headers, body=urllib.parse.urlencode(body))
-	#Escribie en TXT
-	#text_file = open("session_token.txt", "w")
-	#text_file.write(content)
-	#text_file.close()
-	#	if content:
-	#		print("session_token.txt guardado")
-	#	else:
-	#		print("No se ha podido conectar")
 	return content
