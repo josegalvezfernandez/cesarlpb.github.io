@@ -14,3 +14,4 @@ def get_oauth_token():
 	headers = {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8','Authorization' : 'Basic ' + auth}
 	resp, content = http_obj.request(url,method='POST',headers=headers, body=urllib.parse.urlencode(body))
 	return content
+get_oauth_token()
