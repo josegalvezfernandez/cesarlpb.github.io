@@ -54,3 +54,14 @@ for i in range(5):	#bucle para ver los primeros 5 elementos
 # 	a. variables
 # 	b. creando una función e invocándola
 # 	c. usando métodos disponibles en Python (cualesquiera convenientes)
+
+#Script para listar los tags a de una URL
+
+from urllib.request import urlopen
+import re
+
+html = urlopen("http://kite.com")
+text = html.read()
+plaintext = text.decode('utf8')
+links = re.findall("href=[\"\'](.*?)[\"\']", plaintext)
+links[:5] 
